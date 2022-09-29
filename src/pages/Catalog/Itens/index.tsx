@@ -11,7 +11,7 @@ export default function Itens(props: Props){
     const [list, setList] = useState(cars_default);
 
     function getList() {
-        return fetch('http://3.128.76.1:5000/cars')
+        return fetch('http://3.143.227.14:5000/cars')
             .then(data => data.json())
     }
 

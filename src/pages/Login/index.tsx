@@ -20,7 +20,7 @@ export default function Login({setToken}: Props) {
     function logMeIn(event: any) {
         axios({
             method: "post",
-            url:"http://3.128.76.1:5000/token",
+            url:"http://3.143.227.14:5000/token",
             data:{
                 email: loginForm.email,
                 password: loginForm.password

@@ -65,7 +65,7 @@ export default function AdminList(token: any, removeToken: any) {
     }
 
     function getList() {
-        return fetch('http://3.128.76.1:5000/cars')
+        return fetch('http://3.143.227.14:5000/cars')
             .then(data => data.json())
     }
 
@@ -98,7 +98,7 @@ export default function AdminList(token: any, removeToken: any) {
         console.log(token)
         axios({
             method: "POST",
-            url: "http://3.128.76.1:5000/cars",
+            url: "http://3.143.227.14:5000/cars",
             data: {
                 ...createForm
             },
@@ -172,7 +172,7 @@ export default function AdminList(token: any, removeToken: any) {
 
     function updateCar(event: any) {
         event.preventDefault();
-        const url = 'http://3.128.76.1:5000/cars/' + updateForm.id
+        const url = 'http://3.143.227.14:5000/cars/' + updateForm.id
         axios({
             method: "PUT",
             url: url,
@@ -233,7 +233,7 @@ export default function AdminList(token: any, removeToken: any) {
 
     function deleteCar(event: any) {
         event.preventDefault();
-        const url = 'http://3.128.76.1:5000/cars/' + deleteID
+        const url = 'http://3.143.227.14:5000/cars/' + deleteID
         axios({
             method: "DELETE",
             url: url,

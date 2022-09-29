@@ -23,7 +23,7 @@ export default function Register() {
     function regiterMe(event: any) {
         axios({
             method: "post",
-            url:"http://3.128.76.1:5000/user/register",
+            url:"http://3.143.227.14:5000/user/register",
             data:{
                 email: registerForm.email,
                 password: registerForm.password,

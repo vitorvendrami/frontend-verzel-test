@@ -13,20 +13,16 @@ export default function AppRouter() {
     return (
             <Router>
                 <Menu removeToken={removeToken} />
-                    {!token && token!=="" &&token!== undefined?
-                        <Login setToken={setToken} />
-                        :(
-                            <>
-                            <Routes>
-                                <Route path='/admin' element={<Admin token={token} removeToken={removeToken} />}></Route>
-                            </Routes>
-                            </>
-                        )}
-                <Routes>
-                    <Route path='/register' element={<Register />}></Route>
-                    <Route path='/login' element={<Login setToken={setToken} />}></Route>
-                    <Route path='/' element={<Catalog />}></Route>
-                </Routes>
+                    <Routes>
+                        <Route exac path='/register' element={<Register />}></Route>
+                        <Route  exact path='/login' element={<Login setToken={setToken} />}></Route>
+                        <Route  exact path='/' element={<Catalog />}></Route>
+                        <Route exac path='/admin' element=
+                            { !token && token!=="" &&token!== undefined?
+                                <Login setToken={setToken} /> :
+                                <Admin token={token} removeToken={removeToken} />
+                            }></Route>
+                    </Routes>
                 <Footer/>
             </Router>
     );
