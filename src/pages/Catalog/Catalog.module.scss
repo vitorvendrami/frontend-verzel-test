@@ -1,0 +1,75 @@
+
+
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+.menu {
+  padding: 10px $padding-horizontal;
+  background-color: #3374db;
+  width: 100%;
+  @media (max-width: $desktop_xsm) {
+    padding: 20px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 20px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 20px $padding-horizontal-md;
+  }
+}
+
+.header {
+  align-items: center;
+  //background-image: url("/assets/cardapio/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 300px;
+  padding: 0px $padding-horizontal;
+
+  @media (max-width: $desktop_xsm) {
+    padding: 0px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 0px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 0px $padding-horizontal-md;
+  }
+  &__text {
+    color: #333;
+    font-size: 5rem;
+    min-width: 400px;
+    width: 40%;
+  }
+}
+
+.catalog {
+  padding: 20px $padding-horizontal;
+  @media (max-width: $desktop_xsm) {
+    padding: 15px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 15px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 15px $padding-horizontal-md;
+  }
+  &__titulo {
+    color: $dark;
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+  }
+  &__filtros {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+.advertisement {
+  background-color: $blue;
+}

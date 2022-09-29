@@ -1,0 +1,22 @@
+[
+  {
+    "label": "SUV",
+    "id": 1
+  },
+  {
+    "label": "HATCH",
+    "id": 2
+  },
+  {
+    "label": "CROSSOVER",
+    "id": 3
+  },
+  {
+    "label": "CONVERTIBLE",
+    "id": 4
+  },
+  {
+    "label": "SEDAN",
+    "id": 5
+  }
+]

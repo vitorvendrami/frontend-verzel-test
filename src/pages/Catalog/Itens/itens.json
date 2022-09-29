@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Mercedes Benz C 180 CGI EXCLUSIVE",
+    "description": "Automático",
+    "photo": "http://vitor-vendrami-verzel.s3.amazonaws.com/facb02d9-bb1c-46d3-9918-ec0e10e2432cjpeg",
+    "year": 2018,
+    "km": 32939,
+    "city": "Sao Paulo",
+    "price": 144799,
+    "category": {
+      "id": 1,
+      "label": "SUV"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Volvo V60 T5 MOMENTUM TURBO",
+    "description": "Automático",
+    "photo": "http://vitor-vendrami-verzel.s3.amazonaws.com/85f931fe-aace-4f2b-9670-bf4f27eacc1d.jpeg",
+    "year": 2016,
+    "km": 90700,
+    "city": "Sao Paulo",
+    "price": 96499,
+    "category": {
+      "id": 1,
+      "label": "SUV"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Mercedes Benz C 180 CGI EXCLUSIVE 2017",
+    "description": "Automático",
+    "photo": "http://vitor-vendrami-verzel.s3.amazonaws.com/bcb74560-55b7-4ef2-8119-5e18794c63dc.jpeg",
+    "year": 2017,
+    "km": 61281,
+    "city": "Sao Paulo",
+    "price": 130299,
+    "category": {
+      "id": 1,
+      "label": "SUV"
+    }
+  }
+]

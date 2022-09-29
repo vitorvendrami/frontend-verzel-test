@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "",
+    "value": ""
+  },
+  {
+    "nome": "Menor preço",
+    "value": "lower_price"
+  },
+  {
+    "nome": "Maior Preço",
+    "value": "higher_price"
+  },
+  {
+    "nome": "Mais antigos",
+    "value": "oldest"
+  },
+  {
+    "nome": "Mais novos",
+    "value": "newest"
+  }
+]
